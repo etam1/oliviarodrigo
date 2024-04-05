@@ -1,0 +1,84 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 200vw;
+  height: 50vw;
+  background-repeat: no-repeat;
+  background-size: 150vw;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.title {
+  size: 1px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: center;
+}
+
+.title_page {
+  size: 1px;
+  padding-left: 100px;
+  display: flex;
+  padding-top: 100px;
+  
+  flex-direction: row;
+}
+
+.title-1 {
+  font-size: 80px;
+}
+
+.title-2 {
+  font-size: 100px;
+}
+
+.jar {
+  height: 80px;
+  width: 80px;
+  justify-content:right;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

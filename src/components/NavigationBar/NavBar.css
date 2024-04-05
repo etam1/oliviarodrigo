@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none; /* Remove bullet points for unordered lists */
+    color: aliceblue ;
+    padding-top: 40px;
+   
+ }
+
+ ul {
+   display: flex; /* Apply flexbox to the ul element */
+   justify-content: space-between; /* Space out items evenly */
+   list-style-type: none; /* Remove bullet points for unordered lists */
+   color: aliceblue;
+   font-size: 20px;
+}
+
+.rest {
+   color: white;
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
+}
+
+ .button {
+    width: 120px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+ }
